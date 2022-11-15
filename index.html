@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta el clima</title>
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style/styles.css">
+    <meta name="theme-color" content="#000000" />
+
+    <meta property="og:image" content="./img/fondo.webp" />
+    <meta property="og:description"
+        content="Puedes consultar el pronostico del clima en cualquier ciudad de Colombia" />
+    <meta property="og:title" content="Consulta tu clima " />
+
+    <link itemprop="https://consultatuclima.web.app/img/fondo.webp href="https://consultatuclima.web.app"> 
+    <span itemprop="thumbnail" itemscope
+        itemtype="http://schema.org/ImageObject">
+        <link itemprop="url" href="https://consultatuclima.web.app">
+    </span>
+
+
+</head>
+
+<body>
+    <h1>Consulta tu clima</h1>
+    <form action="/">
+        <select name="select" id="departamento">
+            <option>Seleccione un departamento</option>
+        </select>
+        <select name="select" id="municipio">
+            <option>Seleccione un municipio</option>
+        </select>
+
+        <input type="button" value="Consultar clima" id="submit">
+    </form>
+    <div class="clima" id="clima">
+        <div class="estado" id="resultado">
+            <p id="texto"> Encuentra el clima en un municipio de Colombia</p>
+
+        </div>
+    </div>
+    <script src="src/Index.js"></script>
+    <footer>By Tobias Lozano</footer>
+</body>
+
+</html>

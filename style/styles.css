@@ -1,0 +1,116 @@
+body {
+    background-image: url(../img/fondo.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: Consolas, monaco, monospace;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0%;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+    margin: 0;
+    text-align: center;
+
+}
+
+.texto {
+    display: block;
+    text-align: center;
+}
+
+.clima {
+    width: 250px;
+    height: 300px;
+    display: flex;
+    font-size: 15px;
+    color: rgb(214, 173, 119);
+    background: rgb(38,50,56);
+background: radial-gradient(circle, rgba(38,50,56,1) 0%, rgba(23,43,54,1) 84%); 
+    border-radius: 40px;
+    margin: 15px auto;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    -webkit-box-shadow: 22px 23px 52px -8px rgba(11,20,28,1);
+/* -moz-box-shadow: 22px 23px 52px -8px rgba(11,20,28,1);
+ */    box-shadow: 22px 23px 52px -8px rgba(11,20,28,1);
+}
+
+.estado {
+
+    width: 100%;
+}
+
+form {
+    width: 250px;
+    padding: 20px;
+    margin: auto;
+
+}
+
+select {
+    width: 100%;
+    height: 35px;
+    margin: 5px auto;
+    text-align: center;
+    color: rgb(241, 241, 241);
+    background-color: #7b8f8a;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+#submit {
+    display: block;
+    width: 70%;
+    height: 40px;
+    margin: 5px auto;
+    color: rgb(241, 241, 241);
+    background-color: #506266;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+}
+#submit:hover{
+    background-color: #333b3d;
+}
+.a{
+animation: rotar 0.8s infinite alternate;
+}
+@keyframes rotar {
+from{
+    transform: rotate(-5deg);
+}
+to{
+    transform: rotate(15deg); 
+}
+
+}
+
+.desaparecer{
+animation: alejar 0.5s infinite ;
+animation-direction: normal;
+}
+@keyframes alejar {
+from{
+    transform: rotate(0deg);
+}
+to{
+    transform: rotate(360deg); 
+}
+
+}
+h1{
+    text-align: center;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+    color: black; 
+    font-size: 40px;
+    font-weight: 900;
+}
