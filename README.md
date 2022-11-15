@@ -6,11 +6,13 @@ Proyecto de practica para consumo de APIs
 
 Tecnologias usadas:
 
-##Javascript ##HTML5 ##CSS3
+### `Javascript`
+### `HTML5`
+### `CSS3`
 
 APIs:
 
-###`Open weather`
+### `Open weather`
 ### `Datos abiertos Colombia`
 
 Selector dinamico de municipios y peticion a Api de clima para mostrar el resultado
